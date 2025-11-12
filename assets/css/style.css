@@ -159,7 +159,7 @@ a {
   padding-left: 15px;
 }
 .form-control:focus {
-  border: 1px solid #e32845;
+  border: 1px solid #82b440;
   box-shadow: none;
 }
 
@@ -178,33 +178,15 @@ Top Header Area Style
   background-color: #ffffff;
   padding-top: 15px;
   padding-bottom: 15px;
-}
-.top-header-area .container-fluid {
-  max-width: 1520px;
-}
-
-.header-left-content p {
-  color: #043915;
-  font-size: 14px;
+  padding-left: 398px;
+  text-align: center;
 }
 
-.header-right-content {
-  text-align: right;
-}
-.header-right-content .list ul {
-  padding-left: 0;
-  margin-bottom: 0;
-}
-.header-right-content .list ul li {
-  display: inline-block;
-  margin-right: 25px;
-}
-.header-right-content .list ul li a {
+.header-center-content p {
   color: #043915;
-  font-size: 14px;
-}
-.header-right-content .list ul li:last-child {
-  margin-right: 0;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .buy-now-btn {
@@ -297,7 +279,7 @@ Navbar Area Style
   padding-left: 0;
 }
 .desktop-nav .navbar .navbar-nav .nav-item a {
-  font-size: 16px;
+  font-size: 13px;
   color: #ffffff;
   line-height: 1;
   position: relative;
@@ -325,7 +307,7 @@ Navbar Area Style
   font-size: 17px;
 }
 .desktop-nav .navbar .navbar-nav .nav-item a:hover, .desktop-nav .navbar .navbar-nav .nav-item a:focus, .desktop-nav .navbar .navbar-nav .nav-item a.active {
-  color: #d5ec6d;
+  color: #82b440;
 }
 .desktop-nav .navbar .navbar-nav .nav-item a i {
   font-size: 18px;
@@ -340,7 +322,7 @@ Navbar Area Style
   margin-left: 0;
 }
 .desktop-nav .navbar .navbar-nav .nav-item:hover a, .desktop-nav .navbar .navbar-nav .nav-item:focus a, .desktop-nav .navbar .navbar-nav .nav-item.active a {
-  color: #e32845;
+  color: #82b440;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu {
   box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
@@ -385,7 +367,7 @@ Navbar Area Style
   font-size: 17px;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #e32845;
+  color: #82b440;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
   right: 250px;
@@ -415,7 +397,7 @@ Navbar Area Style
   font-size: 17px;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #e32845;
+  color: #82b440;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
   right: 250px;
@@ -428,7 +410,7 @@ Navbar Area Style
   color: #000000;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #e32845;
+  color: #82b440;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   right: -250px;
@@ -441,7 +423,7 @@ Navbar Area Style
   color: #000000;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #e32845;
+  color: #82b440;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   right: -250px;
@@ -454,7 +436,7 @@ Navbar Area Style
   color: #000000;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #e32845;
+  color: #82b440;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   right: -250px;
@@ -467,7 +449,7 @@ Navbar Area Style
   color: #000000;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #e32845;
+  color: #82b440;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   right: -250px;
@@ -491,7 +473,7 @@ Navbar Area Style
   top: -15px;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #e32845;
+  color: #82b440;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
@@ -499,7 +481,7 @@ Navbar Area Style
   top: -1px;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #e32845;
+  color: #82b440;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
@@ -507,7 +489,7 @@ Navbar Area Style
   visibility: visible;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #e32845;
+  color: #82b440;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
@@ -515,7 +497,7 @@ Navbar Area Style
   visibility: visible;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-  color: #e32845;
+  color: #82b440;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
@@ -523,7 +505,7 @@ Navbar Area Style
   top: -15px;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-  color: #e32845;
+  color: #82b440;
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
@@ -574,13 +556,13 @@ Others Option For Responsive Area Style
   width: 40px;
   line-height: 40px;
   border-radius: 100%;
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
   font-size: 20px;
   text-align: center;
 }
 .others-option-for-responsive .dot-menu:hover .inner .circle {
-  background-color: #e32845;
+  background-color: #82b440;
 }
 .others-option-for-responsive .container {
   position: relative;
@@ -628,7 +610,7 @@ Others Option For Responsive Area Style
 .others-option-for-responsive .others-options ul li .call-now i {
   position: absolute;
   font-size: 40px;
-  color: #e32845;
+  color: #82b440;
   left: 0;
   top: 3px;
 }
@@ -663,7 +645,7 @@ Preloader Style
 .preloader-area {
   position: fixed;
   z-index: 999999;
-  background-color: #e32845;
+  background-color: #82b440;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -782,7 +764,7 @@ Preloader Style
   height: 30px;
   width: 30px;
   line-height: 30px;
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
   font-size: 20px;
   transition: all ease 0.5s;
@@ -847,13 +829,13 @@ Preloader Style
   color: #555555;
 }
 .sidebarModal.modal .modal-body .sidebar-contact-info .info-list li a:hover {
-  color: #e32845;
+  color: #82b440;
 }
 .sidebarModal.modal .modal-body .sidebar-contact-info .info-list li i {
   position: absolute;
   left: 0;
   top: 2px;
-  color: #e32845;
+  color: #82b440;
 }
 .sidebarModal.modal .modal-body .sidebar-social-list {
   list-style-type: none;
@@ -874,7 +856,7 @@ Preloader Style
   width: 35px;
   line-height: 40px;
   font-size: 16px;
-  background: #e32845;
+  background: #82b440;
   text-align: center;
   color: #ffffff;
   border-radius: 50%;
@@ -913,14 +895,14 @@ Preloader Style
 /*Default-btn
 ======================================================*/
 .default-btn {
-  background-color: #e32845;
+  background-color: #043915;
   color: #ffffff;
   font-size: 16px;
   padding: 13px 35px;
   border-radius: 0;
   position: relative;
   transition: all ease 0.5s;
-  border: 1px solid #e32845;
+  border: 1px solid #043915;
   z-index: 1;
 }
 .default-btn i {
@@ -964,17 +946,17 @@ Preloader Style
   padding-left: 7px;
 }
 .read-more-btn:hover {
-  color: #e32845;
+  color: #82b440;
 }
 .read-more-btn.active {
-  color: #e32845;
+  color: #82b440;
   letter-spacing: 0;
 }
 .read-more-btn.white-color {
   color: #ffffff;
 }
 .read-more-btn.white-color:hover {
-  color: #e32845;
+  color: #82b440;
 }
 
 /*Section-title
@@ -1040,13 +1022,13 @@ Banner Style
   overflow: hidden;
 }
 .slider-item.banner-bg-1 {
-  background-image: url(../images/banner/banner-img1.jpg);
+  background-image: url(../images/slide.png);
 }
 .slider-item.banner-bg-2 {
-  background-image: url(../images/banner/banner-img2.jpg);
+  background-image: url(../images/slide.png);
 }
 .slider-item.banner-bg-3 {
-  background-image: url(../images/banner/banner-img3.jpg);
+  background-image: url(../images/slide.png);
 }
 .slider-item.banner-bg-4 {
   background-image: url(../images/banner/banner-img4.jpg);
@@ -1086,7 +1068,7 @@ Banner Style
   color: #043915;
 }
 .slider-content.style2 p {
-  color: #555555;
+  color: #fdfbfb;
 }
 
 .hero-slider {
@@ -1188,9 +1170,9 @@ Banner Style
   top: -2px;
 }
 .hero-slider.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #e32845;
+  background-color: #cef881;
   color: #ffffff;
-  border: 1px solid #e32845;
+  border: 1px solid #cef881;
 }
 
 .hero-slider2 .slider-item {
@@ -1230,9 +1212,9 @@ Banner Style
   top: -2px;
 }
 .hero-slider2.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #e32845;
+  background-color: #cef881;
   color: #ffffff;
-  border: 1px solid #e32845;
+  border: 1px solid #cef881;
 }
 .hero-slider2:hover.owl-theme .owl-nav [class*=owl-] {
   opacity: 1;
@@ -1241,7 +1223,7 @@ Banner Style
   background: rgba(0, 0, 0, 0.15);
 }
 .hero-slider2.style2.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #e32845;
+  background-color: #cef881;
 }
 
 .owl-thumbs {
@@ -1320,12 +1302,12 @@ Academics Style
   transition: all ease 0.5s;
 }
 .single-academics-card .academic-top-content h3:hover {
-  color: #e32845;
+  color: #82b440;
 }
 .single-academics-card .academic-top-content i {
   font-size: 30px;
   position: absolute;
-  color: #e32845;
+  color: #82b440;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
@@ -1386,10 +1368,10 @@ Academics Style
   transition: all ease 0.5s;
 }
 .single-academics-card2 .academic-content .academic-top-content h3:hover {
-  color: #e32845;
+  color: #cef881;
 }
 .single-academics-card2 .academic-content .academic-top-content i {
-  color: #e32845;
+  color: #cef881;
   font-size: 20px;
   position: absolute;
   left: 0;
@@ -1414,7 +1396,7 @@ Academics Style
   width: 0;
   top: 0;
   right: 0;
-  background-color: #e32845;
+  background-color: #cef881;
   transition: all ease 0.5s;
 }
 .single-academics-card3 .icon {
@@ -1426,9 +1408,9 @@ Academics Style
   width: 65px;
   line-height: 72px;
   border-radius: 100%;
-  border: 1px solid #e32845;
+  border: 1px solid #82b440;
   display: inline-block;
-  color: #e32845;
+  color: #82b440;
   position: relative;
   transition: all ease 0.5s;
 }
@@ -1480,7 +1462,7 @@ Academics Style
   border: 1px solid transparent;
 }
 .serch-content .form-group .form-control:focus {
-  border: 1px solid #e32845;
+  border: 1px solid #82b440;
 }
 .serch-content .form-group .src-btn {
   position: absolute;
@@ -1505,7 +1487,7 @@ Academics Style
   border: 1px solid transparent;
 }
 .category-content .form-control:focus {
-  border: 1px solid #e32845;
+  border: 1px solid #82b440;
 }
 
 .location-type {
@@ -1521,8 +1503,8 @@ Academics Style
   border-radius: 0;
 }
 .location-type .form-check .form-check-input:checked {
-  background-color: #e32845;
-  border-color: #e32845;
+  background-color: #82b440;
+  border-color: #82b440;
 }
 .location-type .form-check .form-check-input:focus {
   box-shadow: none;
@@ -1539,8 +1521,8 @@ Academics Style
   border-radius: 0;
 }
 .program-level .form-check .form-check-input:checked {
-  background-color: #e32845;
-  border-color: #e32845;
+  background-color: #82b440;
+  border-color: #82b440;
 }
 .program-level .form-check .form-check-input:focus {
   box-shadow: none;
@@ -1605,7 +1587,7 @@ Academics Style
   height: 10px;
   width: 10px;
   border-radius: 100%;
-  background-color: #e32845;
+  background-color: #82b440;
   left: -30px;
   top: 5px;
 }
@@ -1644,7 +1626,7 @@ Academics Style
   margin-bottom: 0;
 }
 .academics-list ul li:hover a {
-  color: #e32845;
+  color: #82b440;
 }
 
 .related-download {
@@ -1674,7 +1656,7 @@ Academics Style
 .related-download ul li i {
   position: absolute;
   left: 0;
-  background-color: #e32845;
+  background-color: #82b440;
   height: 100%;
   top: 0;
   left: 0;
@@ -1740,7 +1722,7 @@ Education Style
 .single-education-card::after {
   position: absolute;
   content: "";
-  background: #e32845;
+  background: #82b440;
   display: inline-block;
   height: 100%;
   width: 0;
@@ -1785,7 +1767,7 @@ Campus Information Style
 .campus-content .list ul li i {
   position: absolute;
   left: 0;
-  color: #e32845;
+  color: #82b440;
 }
 .campus-content.style-2 {
   padding: 50px;
@@ -1804,7 +1786,7 @@ Campus Information Style
   line-height: 1;
 }
 .counter-card h1 .target {
-  color: #e32845;
+  color: #82b440;
   position: relative;
   top: 4px;
 }
@@ -1838,7 +1820,7 @@ Campus Information Style
   border: 1px solid #f4f6f9;
 }
 .estemate-form .form-group .form-control:focus {
-  border: 1px solid #e32845;
+  border: 1px solid #82b440;
 }
 .estemate-form .default-btn {
   display: block;
@@ -1869,7 +1851,7 @@ Courses Style
   width: auto;
 }
 .single-courses-card .courses-content .admin-profile p a {
-  color: #e32845;
+  color: #82b440;
   font-weight: 500;
 }
 .single-courses-card .courses-content .admin-profile::before {
@@ -1888,7 +1870,7 @@ Courses Style
   transition: all ease 0.5s;
 }
 .single-courses-card .courses-content h3:hover {
-  color: #e32845;
+  color: #82b440;
 }
 .single-courses-card .courses-content .bottom-content ul {
   padding-left: 0;
@@ -1899,7 +1881,7 @@ Courses Style
   font-weight: 500;
 }
 .single-courses-card .courses-content .bottom-content ul li a {
-  color: #e32845;
+  color: #82b440;
 }
 .single-courses-card .courses-content .bottom-content ul li ul li {
   display: inline-block;
@@ -1911,7 +1893,7 @@ Courses Style
   position: absolute;
   left: 0;
   top: 0;
-  color: #e32845;
+  color: #82b440;
 }
 .single-courses-card.style2 {
   background-color: #ffffff;
@@ -1943,7 +1925,7 @@ Courses Style
   list-style-type: none;
 }
 .single-courses-card.style3 .list-1 ul li i {
-  color: #e32845;
+  color: #82b440;
   margin-right: 7px;
 }
 .single-courses-card.style3 h3 {
@@ -2009,15 +1991,15 @@ Courses Style
   top: -2px;
 }
 .courses-slider.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
-  border: 1px solid #e32845;
+  border: 1px solid #82b440;
 }
 .courses-slider.owl-theme .owl-dots {
   left: 0;
 }
 .courses-slider.owl-theme .owl-dots .owl-dot span {
-  background-color: #e32845;
+  background-color: #82b440;
   margin: 10px 10px 0 10px;
   background-color: #dfdbdb;
   height: 18px;
@@ -2031,7 +2013,7 @@ Courses Style
   content: "";
   height: 10px;
   width: 10px;
-  background-color: #e32845;
+  background-color: #82b440;
   border-radius: 100%;
   top: 4px;
   left: 4px;
@@ -2070,14 +2052,14 @@ Courses Style
   top: 2px;
 }
 .paginations ul li a:hover {
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
-  border: 1px solid #e32845;
+  border: 1px solid #82b440;
 }
 .paginations ul li a.active {
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
-  border: 1px solid #e32845;
+  border: 1px solid #82b440;
 }
 
 .courses-details .courses-card {
@@ -2110,14 +2092,14 @@ Courses Style
   transform: translateY(-50%);
 }
 .courses-details .courses-card .list ul li .teacher p a {
-  color: #e32845;
+  color: #82b440;
 }
 .courses-details .courses-card .list ul li span {
   color: #043915;
   font-weight: 500;
 }
 .courses-details .courses-card .list ul li i {
-  color: #e32845;
+  color: #82b440;
   position: relative;
   top: 2px;
   padding-right: 7px;
@@ -2144,7 +2126,7 @@ Courses Style
 }
 .description .nav-tabs .nav-link.active {
   color: #ffffff;
-  background-color: #e32845 !important;
+  background-color: #82b440 !important;
   border-radius: 0;
   border: none;
   background-color: transparent;
@@ -2174,7 +2156,7 @@ Courses Style
   height: 10px;
   width: 10px;
   border-radius: 100%;
-  background-color: #e32845;
+  background-color: #82b440;
   left: -30px;
   top: 5px;
 }
@@ -2213,7 +2195,7 @@ Courses Style
   position: absolute;
   right: 0;
   top: -5px;
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
   padding: 5px 10px;
 }
@@ -2243,13 +2225,13 @@ Courses Style
   list-style-type: none;
 }
 .instructor .instructor-content .quick-contact ul li i {
-  color: #e32845;
+  color: #82b440;
   position: relative;
   top: 2px;
   margin-right: 7px;
 }
 .instructor .instructor-content .quick-contact ul li a {
-  color: #e32845;
+  color: #82b440;
 }
 .instructor .instructor-content .social ul {
   padding-left: 0;
@@ -2267,7 +2249,7 @@ Courses Style
   border-radius: 7px;
   text-align: center;
   font-size: 18px;
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
   display: inline-block;
   transition: all ease 0.5s;
@@ -2348,7 +2330,7 @@ Courses Style
   transition: all ease 0.5s;
 }
 .comments .reply:hover {
-  background-color: #e32845;
+  background-color: #82b440;
 }
 .comments .reply:hover a {
   color: #ffffff;
@@ -2379,7 +2361,7 @@ Courses Style
   border: 1px solid transparent;
 }
 .reply-area .reply-form .form-group .form-control:focus {
-  border-color: #e32845;
+  border-color: #82b440;
 }
 .reply-area .reply-form .form-check {
   margin-bottom: 30px;
@@ -2388,8 +2370,8 @@ Courses Style
   border-radius: 0;
 }
 .reply-area .reply-form .form-check .form-check-input:checked {
-  background-color: #e32845;
-  border-color: #e32845;
+  background-color: #82b440;
+  border-color: #82b440;
 }
 .reply-area .reply-form .form-check .form-check-input:focus {
   box-shadow: none;
@@ -2423,7 +2405,7 @@ Courses Style
 .enroll-courses .enroll-img .icon a {
   font-size: 35px;
   background-color: #ffffff;
-  color: #e32845;
+  color: #82b440;
   text-align: center;
   height: 60px;
   width: 60px;
@@ -2432,7 +2414,7 @@ Courses Style
   transition: all ease 0.5s;
 }
 .enroll-courses .enroll-img .icon a:hover {
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
 }
 .enroll-courses .enroll-img .icon::before {
@@ -2503,7 +2485,7 @@ Campus Life Style
   padding-bottom: 26px;
 }
 .single-campus-card .campus-content span {
-  color: #e32845;
+  color: #82b440;
   margin-bottom: 15px;
   display: inline-block;
   font-weight: 500;
@@ -2515,7 +2497,7 @@ Campus Life Style
   transition: all ease 0.5s;
 }
 .single-campus-card .campus-content h3:hover {
-  color: #e32845;
+  color: #82b440;
 }
 .single-campus-card.style2 .campus-content {
   background-color: #ffffff;
@@ -2529,7 +2511,7 @@ Campus Life Style
   content: "";
   height: 1px;
   width: 50px;
-  background-color: #e32845;
+  background-color: #82b440;
   left: 0;
   bottom: 5px;
 }
@@ -2586,15 +2568,15 @@ Campus Life Style
   top: -2px;
 }
 .campus-slider.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
-  border: 1px solid #e32845;
+  border: 1px solid #82b440;
 }
 .campus-slider.owl-theme .owl-dots {
   left: 0;
 }
 .campus-slider.owl-theme .owl-dots .owl-dot span {
-  background-color: #e32845;
+  background-color: #82b440;
   margin: 10px 10px 0 10px;
   background-color: #bbbaba;
   height: 18px;
@@ -2608,7 +2590,7 @@ Campus Life Style
   content: "";
   height: 10px;
   width: 10px;
-  background-color: #e32845;
+  background-color: #82b440;
   border-radius: 100%;
   top: 4px;
   left: 4px;
@@ -2645,9 +2627,9 @@ Campus Life Style
   top: -2px;
 }
 .campus-slider2.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
-  border: 1px solid #e32845;
+  border: 1px solid #82b440;
 }
 
 .active.center .single-campus-card.style-3 .campus-content {
@@ -2708,7 +2690,7 @@ Admission Style
 .admission-right-content .icon a {
   font-size: 35px;
   background-color: #ffffff;
-  color: #e32845;
+  color: #82b440;
   text-align: center;
   height: 60px;
   width: 60px;
@@ -2718,7 +2700,7 @@ Admission Style
   transition: all ease 0.5s;
 }
 .admission-right-content .icon a:hover {
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
 }
 .admission-right-content .icon::before {
@@ -2782,7 +2764,7 @@ Admission Style
 }
 .admission-content .admission-image .icon a {
   font-size: 35px;
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
   text-align: center;
   height: 60px;
@@ -2792,7 +2774,7 @@ Admission Style
   transition: all ease 0.5s;
 }
 .admission-content .admission-image .icon a:hover {
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
 }
 .admission-content .admission-image .icon::before {
@@ -2847,7 +2829,7 @@ Admission Style
 }
 .how-to-apply .apply-list ul li i {
   position: absolute;
-  color: #e32845;
+  color: #82b440;
   left: 0;
 }
 
@@ -2903,7 +2885,7 @@ Admission Style
   transition: all ease 0.5s;
 }
 .additional-information .list ul li:hover {
-  background-color: #e32845;
+  background-color: #82b440;
 }
 .additional-information .list ul li:hover a {
   color: #ffffff;
@@ -2928,7 +2910,7 @@ Program Style
   transition: all ease 0.5s;
 }
 .single-program-card .program-content h3 a:hover {
-  color: #e32845;
+  color: #82b440;
 }
 .single-program-card .program-content p {
   margin-bottom: 17px;
@@ -2997,7 +2979,7 @@ Health Care Style
   transform: translateX(-10px);
 }
 .single-health-care-card:hover .health-care-content h3 {
-  color: #e32845;
+  color: #82b440;
 }
 
 .more-health-care.style2 {
@@ -3036,9 +3018,9 @@ Health Care Style
   top: -2px;
 }
 .health-care-slider.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
-  border: 1px solid #e32845;
+  border: 1px solid #82b440;
 }
 
 .health-details .top-content img {
@@ -3073,7 +3055,7 @@ Health Care Style
   margin-bottom: 30px;
 }
 .madical-care-content .medical-card .content {
-  background-color: #e32845;
+  background-color: #82b440;
   text-align: center;
   padding: 20px 0 15px 0;
 }
@@ -3107,7 +3089,7 @@ Health Care Style
   height: 10px;
   width: 10px;
   border-radius: 100%;
-  background-color: #e32845;
+  background-color: #82b440;
   left: 0;
   top: 6px;
 }
@@ -3157,7 +3139,7 @@ Health Care Style
   border-bottom: 0;
 }
 .tranding .tranding-box:hover .tranding-content h4 a {
-  color: #e32845;
+  color: #82b440;
 }
 
 /*
@@ -3181,7 +3163,7 @@ Events Style
 }
 .single-events-card .events-image .date span {
   font-size: 18px;
-  color: #e32845;
+  color: #82b440;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -3197,7 +3179,7 @@ Events Style
   color: #555555;
 }
 .single-events-card .events-content .admin p a i {
-  color: #e32845;
+  color: #82b440;
   padding-right: 7px;
 }
 .single-events-card .events-content h3 {
@@ -3209,7 +3191,7 @@ Events Style
   transform: translateX(-10px);
 }
 .single-events-card:hover .events-content h3 {
-  color: #e32845;
+  color: #82b440;
 }
 .single-events-card.style2 .events-content {
   background-color: #ffffff;
@@ -3229,7 +3211,7 @@ Events Style
   color: #555555;
 }
 .single-events-card.style2 .events-content .admin-and-date ul li a i {
-  color: #e32845;
+  color: #82b440;
   margin-right: 7px;
 }
 .single-events-card.style2:hover {
@@ -3247,7 +3229,7 @@ Events Style
   list-style-type: none;
 }
 .single-events-card.style-3 .events-content .date-and-read-more ul li p i {
-  color: #e32845;
+  color: #82b440;
   position: relative;
   top: 2px;
   margin-right: 7px;
@@ -3288,15 +3270,15 @@ Events Style
   top: -2px;
 }
 .events-slider.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
-  border: 1px solid #e32845;
+  border: 1px solid #82b440;
 }
 .events-slider.owl-theme .owl-dots {
   left: 0;
 }
 .events-slider.owl-theme .owl-dots .owl-dot span {
-  background-color: #e32845;
+  background-color: #82b440;
   margin: 10px 10px 0 10px;
   background-color: #dbdada;
   height: 18px;
@@ -3310,7 +3292,7 @@ Events Style
   content: "";
   height: 10px;
   width: 10px;
-  background-color: #e32845;
+  background-color: #82b440;
   border-radius: 100%;
   top: 4px;
   left: 4px;
@@ -3366,7 +3348,7 @@ Events Style
   height: 8px;
   width: 8px;
   border-radius: 100%;
-  background-color: #e32845;
+  background-color: #82b440;
   left: 0;
   top: 7px;
 }
@@ -3391,14 +3373,14 @@ Events Style
   line-height: 40px;
   border-radius: 100%;
   background-color: #f4f6f9;
-  color: #e32845;
+  color: #82b440;
   font-size: 18px;
   text-align: center;
   display: inline-block;
   transition: all ease 0.5s;
 }
 .about-lecturer .social-content ul li a:hover {
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
   transform: translateY(-5px);
 }
@@ -3457,7 +3439,7 @@ Podcasts Care Style
   margin-bottom: 30px;
 }
 .single-podcasts-card .podcast-content span {
-  color: #e32845;
+  color: #82b440;
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -3481,7 +3463,7 @@ Podcasts Care Style
   line-height: 45px;
   border-radius: 100%;
   font-size: 24px;
-  background-color: #e32845;
+  background-color: #82b440;
   display: inline-block;
   text-align: center;
   transition: all ease 0.5s;
@@ -3494,7 +3476,7 @@ Podcasts Care Style
   transition: all ease 0.5s;
 }
 .single-podcasts-card .podcast-content .play-icon:hover {
-  background-color: #e32845;
+  background-color: #82b440;
   padding-top: 5px;
 }
 .single-podcasts-card .podcast-content .play-icon:hover span {
@@ -3520,7 +3502,7 @@ Podcasts Care Style
 }
 .single-podcasts-card.style2 .podcasts-image .play-btn:hover {
   background-color: #ffffff;
-  color: #e32845;
+  color: #82b440;
   border-color: #ffffff;
 }
 .single-podcasts-card.style2 .podcast-content {
@@ -3533,7 +3515,7 @@ Podcasts Care Style
 }
 .single-podcasts-card.style2 .podcast-content ul li {
   list-style-type: none;
-  color: #e32845;
+  color: #82b440;
 }
 .single-podcasts-card.style2 .podcast-content ul li.date {
   position: relative;
@@ -3544,7 +3526,7 @@ Podcasts Care Style
   content: "";
   height: 1px;
   width: 30px;
-  background-color: #e32845;
+  background-color: #82b440;
   top: 12px;
   left: 0;
 }
@@ -3563,7 +3545,7 @@ Podcasts Care Style
   font-size: 24px;
   border: 1px solid #ffffff;
   background-color: #ffffff;
-  color: #e32845;
+  color: #82b440;
   position: absolute;
   bottom: 30px;
   left: 30px;
@@ -3571,12 +3553,12 @@ Podcasts Care Style
   transition: all ease 0.5s;
 }
 .single-podcasts-card.style3 .podcasts-image .play-btn:hover {
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
 }
 .single-podcasts-card.style3 .podcasts-image .episodes p {
   background-color: #ffffff;
-  color: #e32845;
+  color: #82b440;
   padding: 10px 15px;
   position: absolute;
   top: 30px;
@@ -3587,7 +3569,7 @@ Podcasts Care Style
   padding: 30px 30px 0 30px;
 }
 .single-podcasts-card.style3 .podcast-content .date p {
-  color: #e32845;
+  color: #82b440;
   font-weight: 500;
   position: relative;
   padding-left: 15px;
@@ -3598,7 +3580,7 @@ Podcasts Care Style
   height: 8px;
   width: 8px;
   border-radius: 100%;
-  background-color: #e32845;
+  background-color: #82b440;
   left: 0;
   top: 7px;
 }
@@ -3633,11 +3615,11 @@ Podcasts Care Style
   transition: all ease 0.5s;
 }
 .categories ul li i {
-  color: #e32845;
+  color: #82b440;
   padding-right: 10px;
 }
 .categories ul li:hover a {
-  color: #e32845;
+  color: #82b440;
 }
 .categories.style-2 {
   background-color: #ffffff;
@@ -3686,7 +3668,7 @@ Podcasts Care Style
   width: 100%;
 }
 .subscribe-area .newsletter-form .validation-danger {
-  color: #e32845;
+  color: #82b440;
   margin-top: 5px;
 }
 
@@ -3740,7 +3722,7 @@ Latest News Style
 }
 .single-news-card .news-content .list ul li i {
   padding-right: 7px;
-  color: #e32845;
+  color: #82b440;
 }
 .single-news-card .news-content .list ul li a {
   color: #555555;
@@ -3755,7 +3737,7 @@ Latest News Style
   transform: scale(1.1);
 }
 .single-news-card:hover .news-content h3 {
-  color: #e32845;
+  color: #82b440;
 }
 .single-news-card.style2 .news-content {
   background-color: #ffffff;
@@ -3798,15 +3780,15 @@ Latest News Style
   top: -2px;
 }
 .news-slider.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
-  border: 1px solid #e32845;
+  border: 1px solid #82b440;
 }
 .news-slider.owl-theme .owl-dots {
   left: 0;
 }
 .news-slider.owl-theme .owl-dots .owl-dot span {
-  background-color: #e32845;
+  background-color: #82b440;
   margin: 0 15px;
   background-color: #ded6d6;
   height: 18px;
@@ -3820,7 +3802,7 @@ Latest News Style
   content: "";
   height: 10px;
   width: 10px;
-  background-color: #e32845;
+  background-color: #82b440;
   border-radius: 100%;
   top: 4px;
   left: 4px;
@@ -3864,7 +3846,7 @@ Latest News Style
 }
 .latest-news-simple-card .news-content .list ul li i {
   padding-right: 7px;
-  color: #e32845;
+  color: #82b440;
 }
 .latest-news-simple-card .news-content .list ul li a {
   color: #ffffff;
@@ -3911,7 +3893,7 @@ Latest News Style
   margin-bottom: 0;
 }
 .category-list ul li:hover a {
-  color: #e32845;
+  color: #82b440;
 }
 
 .related-post-area {
@@ -3944,7 +3926,7 @@ Latest News Style
   transition: all ease 0.5s;
 }
 .related-post-area .related-post-box .related-post-content h4:hover a {
-  color: #e32845;
+  color: #82b440;
 }
 .related-post-area .related-post-box .related-post-content img {
   height: 80px;
@@ -3955,7 +3937,7 @@ Latest News Style
   transform: translateY(-50%);
 }
 .related-post-area .related-post-box .related-post-content p i {
-  color: #e32845;
+  color: #82b440;
   position: relative;
   top: 3px;
   margin-right: 5px;
@@ -3966,7 +3948,7 @@ Latest News Style
   border-bottom: 0;
 }
 .related-post-area .related-post-box:hover .tranding-content h4 a {
-  color: #e32845;
+  color: #82b440;
 }
 
 .news-details .news-simple-card img {
@@ -3985,7 +3967,7 @@ Latest News Style
 }
 .news-details .news-simple-card .list ul li i {
   padding-right: 7px;
-  color: #e32845;
+  color: #82b440;
 }
 .news-details .news-simple-card .list ul li a {
   color: #555555;
@@ -4011,7 +3993,7 @@ Latest News Style
   height: 10px;
   width: 10px;
   border-radius: 100%;
-  background-color: #e32845;
+  background-color: #82b440;
   left: -30px;
   top: 5px;
 }
@@ -4047,7 +4029,7 @@ Latest News Style
   position: relative;
 }
 .tags-and-share .tags ul li a:hover {
-  color: #e32845;
+  color: #82b440;
 }
 .tags-and-share .tags ul li a::before {
   position: absolute;
@@ -4079,13 +4061,13 @@ Latest News Style
   line-height: 38px;
   border-radius: 100%;
   background-color: #f4f6f9;
-  color: #e32845;
+  color: #82b440;
   display: inline-block;
   text-align: center;
   transition: all ease 0.5s;
 }
 .tags-and-share .share ul li a:hover {
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
 }
 
@@ -4114,6 +4096,7 @@ Footer Style
 }
 .footer-logo-area img {
   margin-bottom: 20px;
+  height: 65px;
 }
 .footer-logo-area p {
   margin-bottom: 25px;
@@ -4158,14 +4141,14 @@ Footer Style
   transition: all ease 0.5s;
 }
 .footer-widjet .list ul li a:hover {
-  color: #e32845;
+  color: #82b440;
 }
 
 /*
 CopyRight Style
 ======================================================*/
 .copyright-area {
-  background-color: #1f2c75;
+  background-color: #ffffff;
 }
 
 .copyright {
@@ -4175,10 +4158,10 @@ CopyRight Style
   text-align: right;
 }
 .copyright .copy p {
-  color: #cacaca;
+  color: #3f8d00;
 }
 .copyright .copy p a {
-  color: #e32845;
+  color: #3f8d00;
 }
 .copyright .social-content ul {
   padding-left: 0;
@@ -4192,14 +4175,14 @@ CopyRight Style
   margin-right: 0;
 }
 .copyright .social-content ul li span {
-  color: #ffffff;
+  color: #3f8d00;
 }
 .copyright .social-content ul li a {
-  color: #cacaca;
+  color: #3f8d00;
   transition: all ease 0.5s;
 }
 .copyright .social-content ul li a:hover {
-  color: #e32845;
+  color: #3f8d00;
 }
 
 /*
@@ -4264,7 +4247,7 @@ Page Banner Style
   top: 0;
 }
 .page-banner-content ul li:last-child {
-  color: #e32845;
+  color: #82b440;
   padding-right: 0;
 }
 .page-banner-content ul li:last-child::before {
@@ -4279,7 +4262,7 @@ Student life Style
   position: relative;
 }
 .student-life-card .tags {
-  background-color: #e32845;
+  background-color: #82b440;
   padding: 10px 15px;
   position: absolute;
   left: 20px;
@@ -4313,7 +4296,7 @@ Alumni life Style
   position: absolute;
   top: 10px;
   left: 10px;
-  background-color: #e32845;
+  background-color: #82b440;
   padding: 8px 12px;
 }
 .single-alumni-events-card .alumni-img .date p {
@@ -4324,7 +4307,7 @@ Alumni life Style
   margin-bottom: 15px;
 }
 .single-alumni-events-card .alumni-content .time p i {
-  color: #e32845;
+  color: #82b440;
   position: relative;
   top: 2px;
   margin-right: 5px;
@@ -4334,7 +4317,7 @@ Alumni life Style
   margin-bottom: 15px;
 }
 .single-alumni-events-card .alumni-content .location p i {
-  color: #e32845;
+  color: #82b440;
   position: relative;
   top: 2px;
   margin-right: 5px;
@@ -4413,14 +4396,14 @@ Contact Us Style
   border: 1px solid transparent;
 }
 .contacts-form .form-group .form-control:focus {
-  border: 1px solid #e32845;
+  border: 1px solid #82b440;
 }
 .contacts-form .list-unstyled {
-  color: #e32845;
+  color: #82b440;
   margin-top: 7px;
 }
 .contacts-form .text-danger {
-  color: #e32845;
+  color: #82b440;
   font-size: 16px;
   margin-top: 7px;
 }
@@ -4428,8 +4411,8 @@ Contact Us Style
   border-radius: 0;
 }
 .contacts-form .form-check .form-check-input:checked {
-  background-color: #e32845;
-  border-color: #e32845;
+  background-color: #82b440;
+  border-color: #82b440;
 }
 .contacts-form .form-check .form-check-input:focus {
   box-shadow: none;
@@ -4461,8 +4444,8 @@ Contact Us Style
   height: 65px;
   width: 65px;
   line-height: 65px;
-  border: 1px solid #e32845;
-  color: #e32845;
+  border: 1px solid #82b440;
+  color: #82b440;
   text-align: center;
   border-radius: 100%;
   margin: auto;
@@ -4480,7 +4463,7 @@ Contact Us Style
   transition: all ease 0.5s;
 }
 .contact-and-address .contact-and-address-content .contact-card p a:hover {
-  color: #e32845;
+  color: #82b440;
 }
 .contact-and-address .social-media {
   margin-bottom: 30px;
@@ -4509,11 +4492,11 @@ Contact Us Style
   text-align: center;
   display: inline-block;
   background-color: #eeeeee;
-  color: #e32845;
+  color: #82b440;
   transition: all ease 0.5s;
 }
 .contact-and-address .social-media ul li a:hover {
-  background-color: #e32845;
+  background-color: #82b440;
   color: #ffffff;
   transform: translateY(-5px);
 }
@@ -4526,7 +4509,7 @@ Go To Top Style
   cursor: pointer;
   top: 87%;
   right: -10%;
-  background-color: #e32845;
+  background-color: #82b440;
   z-index: 4;
   width: 50px;
   text-align: center;
@@ -4562,7 +4545,7 @@ Go To Top Style
   height: 100%;
   border-radius: 100%;
   z-index: -1;
-  background-color: #e32845;
+  background-color: #82b440;
   opacity: 0;
   visibility: hidden;
   transition: 0.5s;
@@ -4693,7 +4676,7 @@ Login Area Style
   content: "";
   height: 2px;
   width: 70px;
-  background-color: #e32845;
+  background-color: #82b440;
   top: 43px;
 }
 .login .form-group {
@@ -4703,7 +4686,7 @@ Login Area Style
   margin-bottom: 20px;
 }
 .login .form-check .form-check-input:checked {
-  background-color: #e32845;
+  background-color: #82b440;
 }
 .login .form-check .form-check-input:focus {
   box-shadow: none;
@@ -4740,7 +4723,7 @@ Register Area Style
   content: "";
   height: 2px;
   width: 70px;
-  background-color: #e32845;
+  background-color: #82b440;
   top: 43px;
 }
 .register .form-group {
@@ -4772,7 +4755,7 @@ Password Area Style
   content: "";
   height: 2px;
   width: 70px;
-  background-color: #e32845;
+  background-color: #82b440;
   top: 43px;
 }
 .password .form-group {
@@ -4815,7 +4798,7 @@ Privacy Policy Style
 .privacy-content .list ul li i {
   position: absolute;
   left: 0;
-  color: #e32845;
+  color: #82b440;
 }
 
 /*
@@ -4851,7 +4834,7 @@ Terms & Condition Style
 .condition-content .list ul li i {
   position: absolute;
   left: 0;
-  color: #e32845;
+  color: #82b440;
 }
 
 /*
@@ -4873,7 +4856,7 @@ Error Area Style
   display: inline-block;
   line-height: 1;
   margin-right: 30px;
-  color: #e32845;
+  color: #82b440;
   font-family: "Source Serif Pro", serif;
 }
 .error-area .top-content ul li:first-child {
@@ -4937,7 +4920,7 @@ Coming Soon Style
   font-weight: 700;
   height: 100px;
   width: 100px;
-  border: 6px double #e32845;
+  border: 6px double #82b440;
   border-radius: 50px 0px 0px 0px;
   margin-bottom: 30px;
   color: #ffffff;
@@ -4945,7 +4928,7 @@ Coming Soon Style
 .coming-soon-area .coming-soon .list ul li span {
   font-size: 15px;
   font-weight: 500;
-  color: #e32845;
+  color: #82b440;
 }
 .coming-soon-area .coming-soon .newsletter-form {
   position: relative;
@@ -4968,6 +4951,6 @@ Coming Soon Style
   top: 0;
 }
 .coming-soon-area .coming-soon .newsletter-form .validation-danger {
-  color: #e60808;
+  color: #82b440;
   padding-top: 7px;
 }/*# sourceMappingURL=style.css.map */
