@@ -178,34 +178,15 @@ Top Header Area Style
   background-color: #ffffff;
   padding-top: 15px;
   padding-bottom: 15px;
-}
-.top-header-area .container-fluid {
-  max-width: 1520px;
-}
-
-.header-left-content p {
-  color: #043915;
-  font-size: 14px;
+  padding-left: 398px;
+  text-align: center;
 }
 
-.header-right-content {
-  text-align: right;
-}
-.header-right-content .list ul {
-  padding-left: 0;
-  margin-bottom: 0;
-}
-.header-right-content .list ul li {
-  display: inline-block;
-  margin-right: 25px;
-}
-.header-right-content .list ul li a {
+.header-center-content p {
   color: #043915;
-  font-size: 14px;
+  font-size: 30px;
   font-weight: bold;
-}
-.header-right-content .list ul li:last-child {
-  margin-right: 0;
+  text-align: center;
 }
 
 .buy-now-btn {
