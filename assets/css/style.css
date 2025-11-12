@@ -126,7 +126,7 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #111d5e;
+  color: #043915;
   font-family: "Source Serif Pro", serif;
   font-weight: 700;
 }
@@ -175,7 +175,7 @@ textarea {
 Top Header Area Style
 ======================================================*/
 .top-header-area {
-  background-color: #e32845;
+  background-color: #ffffff;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -184,7 +184,7 @@ Top Header Area Style
 }
 
 .header-left-content p {
-  color: #ffffff;
+  color: #043915;
   font-size: 14px;
 }
 
@@ -200,7 +200,7 @@ Top Header Area Style
   margin-right: 25px;
 }
 .header-right-content .list ul li a {
-  color: #ffffff;
+  color: #043915;
   font-size: 14px;
 }
 .header-right-content .list ul li:last-child {
@@ -230,7 +230,7 @@ Top Header Area Style
   transform: translateY(-50%);
 }
 .buy-now-btn:hover {
-  background-color: #e32845;
+  background-color: #ffffff;
   color: #ffffff;
 }
 
@@ -259,14 +259,14 @@ Navbar Area Style
   display: none;
 }
 .navbar-area.nav-bg-2 .desktop-nav .navbar-nav .nav-item a {
-  color: #111d5e;
+  color: #043915;
 }
 .navbar-area.nav-bg-2 .desktop-nav .others-options .icon {
-  color: #111d5e;
+  color: #043915;
 }
 
 .nav-bg-1 {
-  background-color: #111d5e;
+  background-color: #043915;
 }
 
 .nav-bg-2 {
@@ -325,7 +325,7 @@ Navbar Area Style
   font-size: 17px;
 }
 .desktop-nav .navbar .navbar-nav .nav-item a:hover, .desktop-nav .navbar .navbar-nav .nav-item a:focus, .desktop-nav .navbar .navbar-nav .nav-item a.active {
-  color: #e32845;
+  color: #d5ec6d;
 }
 .desktop-nav .navbar .navbar-nav .nav-item a i {
   font-size: 18px;
@@ -636,7 +636,7 @@ Others Option For Responsive Area Style
   margin-bottom: 8px;
 }
 .others-option-for-responsive .others-options ul li .call-now a {
-  color: #111d5e;
+  color: #043915;
   font-weight: 500;
 }
 .others-option-for-responsive .others-options ul li .default-btn {
@@ -789,7 +789,7 @@ Preloader Style
   border-radius: 50%;
 }
 .modal.right .modal-content button.close i:hover {
-  background-color: #111d5e;
+  background-color: #043915;
 }
 .modal.right.fade .modal-dialog {
   right: -320px;
@@ -882,7 +882,7 @@ Preloader Style
 }
 .sidebarModal.modal .modal-body .sidebar-social-list li i:hover {
   transform: translateY(-5px);
-  background-color: #111d5e;
+  background-color: #043915;
   color: #ffffff;
 }
 .sidebarModal.modal .modal-body .contact-form {
@@ -931,7 +931,7 @@ Preloader Style
 .default-btn::before {
   position: absolute;
   content: "";
-  background-color: #111d5e;
+  background-color: #043915;
   height: 100%;
   width: 100%;
   border-radius: 30px;
@@ -952,7 +952,7 @@ Preloader Style
 }
 
 .read-more-btn {
-  color: #111d5e;
+  color: #043915;
   font-weight: 500;
   font-size: 15px;
   transition: all ease 0.5s;
@@ -1018,7 +1018,7 @@ Preloader Style
 Banner Style
 ======================================================*/
 .banner-area {
-  background-color: #111d5e;
+  background-color: #043915;
   overflow: hidden;
 }
 .banner-area .container-fluid {
@@ -1083,7 +1083,7 @@ Banner Style
   padding: 50px;
 }
 .slider-content.style2 h1 {
-  color: #111d5e;
+  color: #043915;
 }
 .slider-content.style2 p {
   color: #555555;
@@ -1725,7 +1725,7 @@ Education Style
   margin-bottom: 15px;
 }
 .single-education-card .edication-content .read-more-btn:hover {
-  color: #111d5e;
+  color: #043915;
 }
 .single-education-card::before {
   position: absolute;
@@ -1809,7 +1809,7 @@ Campus Information Style
   top: 4px;
 }
 .counter-card h1 .target.heading-color {
-  color: #111d5e;
+  color: #043915;
   font-size: 60px;
   margin-left: -4px;
 }
@@ -2061,7 +2061,7 @@ Courses Style
   border: 1px solid #eeeeee;
   display: inline-block;
   transition: all ease 0.5s;
-  color: #111d5e;
+  color: #043915;
   font-size: 18px;
   box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
 }
@@ -2113,7 +2113,7 @@ Courses Style
   color: #e32845;
 }
 .courses-details .courses-card .list ul li span {
-  color: #111d5e;
+  color: #043915;
   font-weight: 500;
 }
 .courses-details .courses-card .list ul li i {
@@ -2135,7 +2135,7 @@ Courses Style
   border: none;
 }
 .description .nav-tabs .nav-link {
-  color: #111d5e;
+  color: #043915;
   padding-bottom: 10px;
   padding: 15px 30px;
   font-weight: 600;
@@ -2273,7 +2273,7 @@ Courses Style
   transition: all ease 0.5s;
 }
 .instructor .instructor-content .social ul li a:hover {
-  background-color: #111d5e;
+  background-color: #043915;
   color: #ffffff;
 }
 
@@ -2477,7 +2477,7 @@ Courses Style
 .enroll-courses .list ul li span {
   position: absolute;
   left: 0;
-  color: #111d5e;
+  color: #043915;
   font-weight: 600;
 }
 .enroll-courses .list ul li:last-child {
@@ -2924,7 +2924,7 @@ Program Style
   margin-bottom: 17px;
 }
 .single-program-card .program-content h3 a {
-  color: #111d5e;
+  color: #043915;
   transition: all ease 0.5s;
 }
 .single-program-card .program-content h3 a:hover {
@@ -4038,7 +4038,7 @@ Latest News Style
 .tags-and-share .tags ul li span {
   font-size: 18px;
   font-weight: 500;
-  color: #111d5e;
+  color: #043915;
   margin-right: 5px;
 }
 .tags-and-share .tags ul li a {
@@ -4070,7 +4070,7 @@ Latest News Style
 .tags-and-share .share ul li span {
   font-size: 18px;
   font-weight: 500;
-  color: #111d5e;
+  color: #043915;
   margin-right: 15px;
 }
 .tags-and-share .share ul li a {
@@ -4093,7 +4093,7 @@ Latest News Style
 Footer Style
 ======================================================*/
 .footer-area {
-  background-color: #111d5e;
+  background-color: #043915;
   position: relative;
   z-index: 1;
 }
@@ -4569,7 +4569,7 @@ Go To Top Style
 }
 .go-top:hover {
   color: #ffffff;
-  background: #111d5e;
+  background: #043915;
 }
 .go-top:hover::before {
   opacity: 1;
@@ -4635,7 +4635,7 @@ Faq Area Style
 .accordion .accordion-item .accordion-button {
   border: none;
   background-color: transparent;
-  color: #111d5e;
+  color: #043915;
   font-size: 18px;
   font-weight: 700;
   position: relative;
@@ -4652,7 +4652,7 @@ Faq Area Style
   background-image: unset;
   content: "";
   font-size: 20px;
-  color: #111d5e;
+  color: #043915;
   text-align: center;
   content: "\ea13";
   font-family: "remixicon" !important;
@@ -4806,7 +4806,7 @@ Privacy Policy Style
 }
 .privacy-content .list ul li {
   font-weight: 600;
-  color: #111d5e;
+  color: #043915;
   position: relative;
   padding-left: 20px;
   list-style-type: none;
@@ -4842,7 +4842,7 @@ Terms & Condition Style
 }
 .condition-content .list ul li {
   font-weight: 600;
-  color: #111d5e;
+  color: #043915;
   position: relative;
   padding-left: 20px;
   list-style-type: none;
@@ -4877,7 +4877,7 @@ Error Area Style
   font-family: "Source Serif Pro", serif;
 }
 .error-area .top-content ul li:first-child {
-  color: #111d5e;
+  color: #043915;
 }
 .error-area .top-content ul li:last-child {
   color: #555555;
