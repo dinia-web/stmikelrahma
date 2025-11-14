@@ -4954,3 +4954,99 @@ Coming Soon Style
   color: #82b440;
   padding-top: 7px;
 }/*# sourceMappingURL=style.css.map */
+
+/* ======== INFO PMB SECTION ======== */
+.info-pmb-section {
+  background-color: #f2f1ee; /* krem lembut */
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.info-pmb-section .container {
+  max-width: 1100px;
+  width: 90%;
+}
+
+.section-title {
+  text-align: center;
+  color: #0b3d0b; /* hijau tua */
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 0.5px;
+}
+
+.section-line {
+  width: 60px;
+  height: 3px;
+  background-color: #b81c22; /* merah khas El Rahma */
+  margin: 10px auto 40px;
+  border-radius: 5px;
+}
+
+.flex-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 30px; /* jarak di bawah foto */
+}
+
+.image-container img {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.flex-text {
+  flex: 2;
+  text-align: justify;
+  font-size: 16px;
+  color: #222;
+  line-height: 1.7;
+}
+
+.flex-text b {
+  color: #0b3d0b;
+}
+
+.flex-text a {
+  color: #628930;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.flex-text a:hover {
+  text-decoration: underline;
+  color: #1a5b1a;
+}
+
+/* ======== RESPONSIVE DESIGN ======== */
+@media (max-width: 768px) {
+  .flex-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .flex-text {
+    text-align: left;
+  }
+
+  .image-container {
+    padding-bottom: 40px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+}
