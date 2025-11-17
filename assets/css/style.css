@@ -1777,6 +1777,73 @@ Campus Information Style
   margin-left: -100px;
 }
 
+
+/* Section */
+.numbers-counter {
+    text-align: center;
+    padding: 150px 0 150px;
+    background: #f5f7fa;
+}
+
+/* Title with underline */
+.section-title {
+    font-size: 60px;
+    font-weight: bold;
+    color: #043915;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title::after {
+    content: "";
+    width: 60%;
+    height: 3px;
+    background: #043915;
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+/* Wrapper for 3 boxes */
+.counter-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+/* Individual counter */
+.counter-box h3 {
+    font-size: 90px;
+    font-weight: 700;
+    color: #043915;
+    margin-bottom: 10px;
+}
+
+.counter-box p {
+    color: #555;
+    font-size: 16px;
+}
+
+.accent {
+    color: #7DBA58; /* green soft */
+}
+
+/* Smile icon */
+.smile {
+    font-size: 38px;
+    color: #7DBA58;
+}
+
+/* Optional: hover animation */
+.counter-box h3:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
 .counter-card {
   margin-bottom: 30px;
 }
@@ -1784,11 +1851,23 @@ Campus Information Style
   font-size: 60px;
   margin-bottom: 5px;
   line-height: 1;
+  text-align: center;
 }
 .counter-card h1 .target {
   color: #82b440;
   position: relative;
   top: 4px;
+}
+.counter-card h1 .dollar {
+  color: #82b440;
+  position: relative;
+  top: 4px;
+}
+.counter-card h1 .smile {
+  color: #82b440;
+  position: relative;
+  top: 3px;
+  font-weight: 300;
 }
 .counter-card h1 .target.heading-color {
   color: #043915;
@@ -4337,7 +4416,7 @@ Page Banner Style
   color: white;
   cursor: pointer;
   user-select: none;
-
+}
 /*
 Student life Style
 ======================================================*/
@@ -5288,3 +5367,104 @@ kegiatan
         grid-template-columns: repeat(1, 1fr);
     }
   }
+
+
+ /* === Jalur Pendaftaran Section === */
+
+.jalur-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.jalur-section h2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #043915;
+}
+
+.jalur-section .underline {
+    width: 60px;
+    height: 3px;
+    background: #043915;
+    margin: 0 auto 30px auto;
+}
+
+.jalur-section img {
+    width: 180px;
+    margin-bottom: 25px;
+}
+
+/* Tombol */
+.jalur-section .btn-jalur {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.btn-outline-green {
+    border: 2px solid #043915;
+    color: #043915;
+    background: transparent;
+}
+
+.btn-outline-green:hover {
+    background: #043915;
+    color: #fff;
+}
+
+.btn-green {
+    background: #043915;
+    color: #fff;
+}
+
+.btn-green:hover {
+    background: #032c11;
+    color: #fff;
+}
+
+/* ===== Cara Pendaftaran Page ===== */
+
+.content-wrapper {
+    max-width: 900px;
+    margin: 120px auto 60px;
+    padding: 0 20px;
+}
+
+/* Judul Besar */
+.page-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #043915;
+    display: inline-block;
+    text-align: center;
+    width: 100%; /* supaya center full */
+}
+
+/* Card */
+.info-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-left: 6px solid #043915;
+}
+
+/* Judul Section */
+.section-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* List */
+.info-card ul {
+    padding-left: 20px;
+    margin: 0;
+    line-height: 1.7em;
+}
