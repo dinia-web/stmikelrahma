@@ -963,19 +963,25 @@ Preloader Style
 ======================================================*/
 .section-title {
   max-width: 450px;
-  text-align: center;
   margin: -10px auto 40px;
-  position: relative;
+  position: center;
+  text-align: center;
 }
 .section-title.style2 {
   text-align: left;
   margin-left: 0;
+  text-align: center;
   margin-right: auto;
 }
 .section-title h2 {
+<<<<<<< HEAD
   font-size: 40px;
+=======
+  font-size: 36px;
+>>>>>>> dc9eb35 (perbaikannn again)
   font-weight: 700;
   margin-bottom: 10px;
+  text-align: center;
 }
 .section-title h2.white {
   color: #ffffff;
@@ -5180,9 +5186,19 @@ Coming Soon Style
   width: 90%;
 }
 
+<<<<<<< HEAD
 .section-title {
   text-align: center;
   color: #0b3d0b; /* hijau tua */
+=======
+/* JUDUL */
+.info-pmb-section .section-title {
+  display: block;
+  width: 100%;
+  text-align: center !important;
+  font-size: 36px;
+  color: #0b3d0b;
+>>>>>>> dc9eb35 (perbaikannn again)
   font-weight: 700;
   font-size: 28px;
   letter-spacing: 0.5px;
