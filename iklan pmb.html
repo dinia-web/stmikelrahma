@@ -449,41 +449,5 @@
         <script src="assets/js/ajaxchimp.min.js"></script>
         <!--=== Custom js ===-->
         <script src="assets/js/custom.js"></script>
-   <script>
-$(document).ready(function(){
-    $('.iklan-carousel').owlCarousel({
-        loop: true,
-        center: true,
-        items: 1,
-        stagePadding: 390,     // desktop
-        autoplay: false,
-        dots: false,
-        nav: true,
-        navText: ["<span>&#10094;</span>", "<span>&#10095;</span>"],
-        smartSpeed: 700,
-        
-        // RESPONSIVE FIX
-        responsive: {
-            0: {        // HP
-                stagePadding: 20,
-            },
-            480: {      // HP lebar
-                stagePadding: 40,
-            },
-            768: {      // Tablet
-                stagePadding: 120,
-            },
-            992: {      // Desktop kecil
-                stagePadding: 250,
-            },
-            1200: {     // Desktop besar
-                stagePadding: 390,
-            }
-        }
-    });
-});
-</script>
-
-
     </body>
 </html>

@@ -423,7 +423,6 @@ try {
         }
     })();
 } catch (err) {}
-
 // OpenImageatSebagianAlumni
 
 const images = [
@@ -465,3 +464,47 @@ function prevLB() {
     index = (index - 1 + images.length) % images.length;
     document.getElementById("lightboxImg").src = images[index];
 }
+ 
+$(document).ready(function(){
+    $('.iklan-carousel').owlCarousel({
+        loop: true,
+        center: true,
+        items: 1,
+        stagePadding: 390,     // desktop
+        autoplay: false,
+        dots: false,
+        nav: true,
+        navText: ["<span>&#10094;</span>", "<span>&#10095;</span>"],
+        smartSpeed: 700,
+        
+        // RESPONSIVE FIX
+        responsive: {
+            0: {        // HP
+                stagePadding: 20,
+            },
+            480: {      // HP lebar
+                stagePadding: 40,
+            },
+            768: {      // Tablet
+                stagePadding: 120,
+            },
+            992: {      // Desktop kecil
+                stagePadding: 250,
+            },
+            1200: {     // Desktop besar
+                stagePadding: 390,
+            }
+        }
+    });
+});
+
+$(document).ready(function() {
+    $('.popup-link').magnificPopup({
+        type: 'image',
+        gallery: {
+            enabled: true
+        },
+        removalDelay: 300,
+        mainClass: 'mfp-fade'
+    });
+});
