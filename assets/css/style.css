@@ -345,10 +345,10 @@ Navbar Area Style
 }
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
   color: #1b2336;
-  padding: 15px;
+  padding: 12px;
   border-bottom: 1px dashed #ededed;
   margin: 0;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   line-height: 1;
   display: block;
@@ -3901,10 +3901,6 @@ Latest News Style
   background-color: #f4f6f9;
   margin-bottom: 30px;
 }
-.related-post-area h3 {
-  font-size: 22px;
-  margin-bottom: 20px;
-}
 .related-post-area .related-post-box {
   padding-bottom: 15px;
   margin-bottom: 15px;
@@ -4094,14 +4090,31 @@ Footer Style
 .footer-logo-area {
   margin-bottom: 30px;
 }
-.footer-logo-area img {
-  margin-bottom: 20px;
-  height: 65px;
+
+.footer-logo-wrapper {
+  display: flex;
+  align-items: center; /* sejajarkan vertikal */
+  gap: 10px; /* jarak antara logo dan teks */
+  margin-bottom: 15px;
 }
+
+.footer-logo-wrapper img {
+  height: 60px;
+}
+
+.footer-logo-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
 .footer-logo-area p {
   margin-bottom: 25px;
   color: #ffffff;
+  line-height: 1.6;
 }
+
 .footer-logo-area .contact-list ul {
   padding-left: 0;
   margin-bottom: 0;
@@ -4450,14 +4463,15 @@ Contact Us Style
   margin-bottom: 15px;
 }
 .contact-and-address .contact-and-address-content .contact-card h4 {
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 15px;
 }
 .contact-and-address .contact-and-address-content .contact-card p {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 .contact-and-address .contact-and-address-content .contact-card p a {
   color: #555555;
+  font-size: 12px;
   transition: all ease 0.5s;
 }
 .contact-and-address .contact-and-address-content .contact-card p a:hover {
@@ -5048,3 +5062,156 @@ Coming Soon Style
     font-size: 24px;
   }
 }
+
+/*
+iklan pmb
+======================================================*/
+.iklan-iklan {
+    padding-bottom: 120px;
+}
+/* NAV BUTTONS */
+.iklan-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+    padding: 0 15px;
+}
+
+.iklan-carousel .owl-nav button {
+    pointer-events: all;
+    background: rgba(0,0,0,0.4) !important;
+    color: #fff !important;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iklan-carousel .owl-nav button:hover {
+    background: #82b440 !important;
+}
+
+/* Hilangkan dots */
+.iklan-carousel .owl-dots {
+    display: none !important;
+}
+/* --- FIX AGAR GAMBAR TIDAK TERPOTONG --- */
+.iklan-carousel .item img {
+    width: 100%;
+    height: auto !important; 
+    object-fit: contain !important;
+    background: #000; /* biar mirip el rahma */
+}
+
+/* Hilangkan jarak putih kiri-kanan */
+.iklan-wrapper .owl-stage-outer {
+    padding: 0 !important;
+}
+
+/* Hilangkan stagePadding di tampilan besar */
+@media (min-width: 992px) {
+    .iklan-carousel .owl-stage-outer {
+        overflow: hidden !important;
+    }
+}
+.iklan-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 50px;
+    color: #111;
+    text-transform: uppercase;
+}
+.title-line {
+    width: 90px;
+    height: 4px;
+    background: #82b440;
+    margin: 0 auto 40px;
+    border-radius: 20px;
+}
+/* Gaya modern untuk gambar iklan */
+.iklan-carousel .item img {
+    width: 100%;
+    /* Soft Glow Shadow */
+    box-shadow: 0 12px 40px rgba(56, 189, 248, 0.25);
+
+    /* Hover Zoom */
+    transform: scale(1);
+    transition: transform 0.45s ease, box-shadow 0.45s ease;
+}
+
+.iklan-carousel .item:hover img {
+    transform: scale(1.03);
+    box-shadow: 0 18px 50px rgba(56, 189, 248, 0.35); /* glow sedikit lebih kuat saat hover */
+}
+
+
+/*
+kegiatan
+======================================================*/
+.gallery-section-modern {
+    padding: 60px 0;
+}
+
+.gallery-section-modern h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.underline-modern {
+    width: 90px;
+    height: 4px;
+    background: #82b440;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+/* GRID MODERN */
+.gallery-grid-modern {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    margin-top: 40px;
+}
+
+/* CARD FOTO */
+.gallery-item-modern {
+    overflow: hidden;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.gallery-item-modern:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 12px 28px rgba(0,0,0,0.15);
+}
+
+/* FOTO */
+.gallery-img-modern {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+    .gallery-grid-modern {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .gallery-grid-modern {
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
