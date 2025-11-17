@@ -5189,6 +5189,14 @@ Coming Soon Style
 .section-title {
   text-align: center;
   color: #0b3d0b; /* hijau tua */
+
+/* JUDUL */
+.info-pmb-section .section-title {
+  display: block;
+  width: 70%;
+  text-align: center !important;
+  font-size: 35px;
+  color: #0b3d0b;
   font-weight: 700;
   font-size: 28px;
   letter-spacing: 0.5px;
@@ -5196,6 +5204,10 @@ Coming Soon Style
 
 .section-line {
   width: 60px;
+}
+/* GARIS DI BAWAH JUDUL */
+.info-pmb-section .section-line {
+  width: 70px;
   height: 3px;
   background-color: #b81c22; /* merah khas El Rahma */
   margin: 10px auto 40px;
@@ -5437,7 +5449,7 @@ kegiatan
         grid-template-columns: repeat(1, 1fr);
     }
   }
-<<<<<<< HEAD
+
 /* =========================================================
    DOWNLOAD SECTION — LIGHT MODE (DEFAULT)
    ========================================================= */
@@ -5447,6 +5459,13 @@ kegiatan
     background-color: #e8e6d7 !important; /* Coklat muda */
     padding: 60px 0;
     color: #222;
+}
+/* ======== BEASISWA SECTION (VERSI BERANDA) ======== */
+.home-beasiswa-section {
+  background-color: white; /* warna krem */
+  padding: 50px 0;           /* jarak dalam section */
+  margin: 50px 0;            /* jarak luar antar section */
+  text-align: center;         /* center seluruh konten judul */
 }
 
 /* ---------- SECTION TITLE ---------- */
@@ -5538,8 +5557,17 @@ body.dark .download-card {
     color: #f0f0f0 !important;
 }
 
+
 body.dark .download-card .title {
     color: #ff5555 !important;
+}
+/* ================================
+   KIP-KULIAH SECTION — HOMEPAGE
+================================== */
+.home-kip-section {
+  background-color: #f5f5f5; 
+  padding: 80px 0;           /* jarak dalam */
+  margin: 80px 0;            /* jarak luar */
 }
 
 /* ---------- BUTTON IN DARK ---------- */
@@ -5548,9 +5576,19 @@ body.dark .btn-read {
     color: #fff !important;
 }
 
+
 /* ---------- TIME TEXT IN DARK ---------- */
 body.dark .time {
     color: #bbbbbb !important;
+}
+.home-kip-section h2 {
+  display: block;
+  width: 90%;
+  text-align: center !important;
+  font-size: 28px;
+  color: #0b3d0b;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 /* =========================================================
@@ -5964,8 +6002,7 @@ body.dark .iklan-iklan {
 
 body.dark .iklan-title {
   color: #ffffff !important;
-=======
-
+}
  /* === Jalur Pendaftaran Section === */
 
 .jalur-section {
@@ -6537,5 +6574,4 @@ body.dark .iklan-title {
     .survei-container-modern {
         padding: 30px 25px;
     }
->>>>>>> 37fcbffce8cae2d722c42efc683daaeb50c33617
-}
+  }}
