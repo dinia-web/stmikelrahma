@@ -5122,7 +5122,8 @@ Coming Soon Style
 /* ======== INFO PMB SECTION ======== */
 .info-pmb-section {
   background-color: #f2f1ee; /* krem lembut */
-  padding: 80px 0;
+  padding: 80px 0;          /* jarak dalam */
+  margin: 80px 0;           /* jarak luar – agar tidak mepet */
   display: flex;
   justify-content: center;
 }
@@ -5154,6 +5155,7 @@ Coming Soon Style
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
+  margin-bottom: 40px; /* jarak antar blok */
 }
 
 .image-container {
@@ -5161,7 +5163,7 @@ Coming Soon Style
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-bottom: 30px; /* jarak di bawah foto */
+  padding-bottom: 30px; /* jarak bawah foto */
 }
 
 .image-container img {
@@ -5193,6 +5195,23 @@ Coming Soon Style
   text-decoration: underline;
   color: #1a5b1a;
 }
+
+.flex-text h5, 
+.flex-text h6 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.flex-text p, 
+.flex-text i {
+  margin-bottom: 15px;
+}
+
+.prodi-section {
+  margin-top: 40px; /* jarak dari flex-section */
+  margin-bottom: 60px; /* jarak ke section berikutnya */
+}
+
 
 /* ======== RESPONSIVE DESIGN ======== */
 @media (max-width: 768px) {
@@ -5367,6 +5386,7 @@ kegiatan
         grid-template-columns: repeat(1, 1fr);
     }
   }
+<<<<<<< HEAD
 
 
  /* === Jalur Pendaftaran Section === */
@@ -5468,3 +5488,191 @@ kegiatan
     margin: 0;
     line-height: 1.7em;
 }
+=======
+/* ======== BEASISWA SECTION (VERSI BERANDA) ======== */
+.home-beasiswa-section {
+  background-color: #f2f1ee; /* warna krem */
+  padding: 80px 0;           /* jarak dalam section */
+  margin: 80px 0;            /* jarak luar antar section */
+}
+
+.home-beasiswa-section .section-title {
+  text-align: center;
+  color: #0b3d0b; /* hijau tua */
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 0.5px;
+}
+
+.home-beasiswa-section .section-line {
+  width: 60px;
+  height: 3px;
+  background-color: #b81c22; /* merah khas El Rahma */
+  margin: 10px auto 40px;
+  border-radius: 5px;
+}
+
+/* GRID KONTEN */
+.home-beasiswa-section .content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px; /* jarak antar card */
+  margin-top: 30px;
+}
+
+/* CARD BEASISWA */
+.home-beasiswa-section .card-box {
+  background: #f2f1ee;
+  width: 100%;
+  max-width: 450px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.home-beasiswa-section .card-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.home-beasiswa-section .card-box img {
+  width: 100%;
+  max-width: 260px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* TITLE DALAM CARD */
+.home-beasiswa-section .card-box .title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0b3d0b;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+/* DESKRIPSI */
+.home-beasiswa-section .card-box .desc {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* TOMBOL */
+.home-beasiswa-section .btn-more {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b81c22;
+  color: white;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.home-beasiswa-section .btn-more:hover {
+  background-color: #8a151a;
+}
+/* ================================
+   KIP-KULIAH SECTION — HOMEPAGE
+================================== */
+.home-kip-section {
+  background-color: #e6ecf1; /* biru keabuan */
+  padding: 80px 0;           /* jarak dalam */
+  margin: 80px 0;            /* jarak luar */
+}
+
+.home-kip-section .container {
+  max-width: 1100px;
+  width: 90%;
+}
+
+.home-kip-section h2 {
+  display: block;
+  width: 100%;
+  text-align: center !important;
+  font-size: 28px;
+  color: #0b3d0b;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.home-kip-section .section-line {
+  width: 60px;
+  height: 3px;
+  background-color: #b81c22; /* merah el rahma */
+  margin: 0 auto 40px;
+  border-radius: 5px;
+}
+
+/* FLEX BAGIAN GAMBAR DAN TEKS */
+.home-kip-section .flex-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.home-kip-section .flex-section img {
+  max-width: 500px;
+  border-radius: 10px;
+  display: block;
+}
+
+/* TEKS DI SAMPING GAMBAR */
+.home-kip-section .flex-text {
+  flex: 1 1 500px;
+  font-size: 16px;
+  text-align: justify;
+  color: #222;
+  line-height: 1.7;
+}
+
+.home-kip-section .flex-text h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #0b3d0b;
+  font-weight: 700;
+}
+
+/* FULL WIDTH TEXT */
+.home-kip-section .full-text {
+  font-size: 16px;
+  color: #222;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.home-kip-section .full-text h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #0b3d0b;
+  font-weight: 700;
+}
+
+.home-kip-section .full-text h4 {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: #333;
+}
+
+.home-kip-section ul,
+.home-kip-section ol {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.home-kip-section ul li,
+.home-kip-section ol li {
+  margin-bottom: 6px;
+}
+
+>>>>>>> a057008 (beasiswa kip kuliah)

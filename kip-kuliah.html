@@ -28,58 +28,120 @@
     <!--Responsive css-->
     <link rel="stylesheet" href="assets/css/responsive.css">
     <title>BEASISWA PROGRAM SUBSIDI BIAYA PEDULI PANDEMI (JSB-PP)</title>
-     
-      <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f2f3fb;
-        }
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #ffffff;
+        font-family: Arial, sans-serif;
+        color: #000;
+    }
 
-        .container {
-            width: 90%;
-            margin: 40px auto;
-            background: #f2f3fb;
-        }
+    .container {
+        width: 90%;
+        max-width: 1250px;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
 
-        h1 {
+    h2, h3, h4 {
+        color: #c0392b;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .section-line {
+        width: 80px;
+        height: 4px;
+        background: #c0392b;
+        margin: 10px auto 40px auto;
+        border-radius: 5px;
+    }
+
+    p, li {
+        font-size: 17px;
+        line-height: 1.8;
+        text-align: justify;
+    }
+
+    ul, ol {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .full-text {
+    margin-top: 40px;
+}
+
+    /* ==================
+       FLEX WRAPPER
+    =================== */
+    .flex-section {
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+        margin-top: 30px;
+    }
+
+    .flex-section img {
+        width: 320px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    }
+
+    .flex-text {
+        flex: 1;
+        text-align: justify;
+    }
+
+    /* ==================
+       TITLES UNDER SECTIONS
+    =================== */
+    h3 {
+        margin-top: 35px;
+        font-size: 22px;
+        text-transform: none;
+    }
+
+    h4 {
+        font-size: 19px;
+        margin-top: 20px;
+        text-transform: none;
+    }
+
+    /* ==================
+       RESPONSIVE
+    =================== */
+    @media (max-width: 900px) {
+        .flex-section {
+            flex-direction: column;
             text-align: center;
-            font-size: 36px;
-            font-weight: 700;
-            margin-bottom: 10px;
         }
 
-        .title-line {
-            width: 80px;
-            height: 3px;
-            background: #c62828;
-            margin: 10px auto 30px;
+        .flex-section img {
+            width: 100%;
+            max-width: 420px;
+            margin: 0 auto;
         }
 
-        .content-wrapper {
-            display: flex;
-            gap: 40px;
-            align-items: flex-start;
-            justify-content: center;
+        .flex-text {
+            text-align: justify;
         }
+    }
 
-        .content-wrapper img {
-            width: 330px;
-            height: auto;
-        }
+    @media (max-width: 600px) {
+        h2 { font-size: 26px; }
+        p, li { font-size: 16px; }
+    }
+</style>
 
-        .text-section {
-            font-size: 18px;
-            line-height: 1.6;
-            color: #000;
-        }
-
-        .text-section b {
-            font-size: 19px;
-        }
-
-    </style>
 </head>
 <body>
 
@@ -144,7 +206,7 @@
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a href="#" class="nav-link active">
+                                <a href="index.html" class="nav-link active">
                                     BERANDA
                                 </a>
                             </li>
@@ -263,33 +325,113 @@
     </div>
     <!-- End Navbar Area -->
 
-  <div class="container">
+<div class="container">
 
-    <h1>BEASISWA PROGRAM SUBSIDI BIAYA PEDULI PANDEMI (JSB-PP)</h1>
-    <div class="title-line"></div>
+    <h2>BEASISWA KIP KULIAH 2024</h2>
+    <div class="section-line"></div>
 
-    <div class="content-wrapper">
+    <!-- =======================
+         BAGIAN GAMBAR + TEKS
+    =========================== -->
+    <div class="flex-section">
+        <img src="assets/images/KIP-KULIAH.webp" alt="KIP Kuliah">
 
-        <img src="assets/images/beasiswa-pp2.webp" alt="Gambar Icon">
+        <div class="flex-text">
+            <p>
+                Beasiswa KIP-KULIAH tahun 2024 diperuntukkan untuk siswa lulusan SMU/SMK/MA tahun 
+                2024, 2023, dan 2022.
+            </p>
 
-        <div class="text-section">
-            <b>PERSYARATAN :</b><br>
-            1. Mahasiswa berasal dari keluarga kurang mampu (miskin/hampir miskin)<br>
-            2. Pemegang KIP/KIS/PKH/KKS/SKTM/ANAK-YATIM
-            <br><br>
-
-            <b>BENTUK BEASISWA/SUBSIDI :</b><br>
-            1. Gratis SPA (Senilai Rp. 4.000.000)<br>
-            2. SPP hanya Rp. 1,5 JT/smt untuk program studi Informatika (S1) dan Rp. 1 JT/smt untuk program studi Sistem Informasi (S1)
-            <br><br>
-
-            <b>JANGKA WAKTU :</b><br>
-            Program Sarjana paling lama 8 (delapan) semester;
+            <h3>A. PERSYARATAN :</h3>
+            <ol>
+                <li>
+                    Mahasiswa baru pemegang KIP atau mahasiswa dari keluarga miskin/rentan miskin:
+                    <ul>
+                        <li>Mahasiswa keluarga Program Keluarga Harapan (PKH)</li>
+                        <li>Mahasiswa keluarga pemegang Kartu Keluarga Sejahtera (KKS)</li>
+                        <li>Mahasiswa kategori desil 4 pada DTKS</li>
+                        <li>Mahasiswa dari panti sosial/panti asuhan</li>
+                        <li>Penghasilan keluarga maksimal Rp 4.000.000/bulan</li>
+                    </ul>
+                </li>
+            </ol>
         </div>
+    </div>
 
+    <!-- =======================
+         BAGIAN TEKS FULL WIDTH
+    =========================== -->
+    <div class="full-text">
+        <p>
+            Mahasiswa baru yang telah mendaftar SIM KIP Kuliah dan memenuhi syarat berdasarkan usulan Perguruan Tinggi atau LLDIKTI.
+        </p>
+
+        <p>Data penerima KIP Kuliah merupakan data keluarga miskin atau rentan miskin yang:</p>
+        <ul>
+            <li>Ditetapkan oleh Kemensos;</li>
+            <li>Atau diusulkan oleh satuan pendidikan/pemangku kepentingan.</li>
+        </ul>
+
+        <h3>B. KOMPONEN BEASISWA KIP-KULIAH</h3>
+
+        <h4>a. Bantuan Biaya Pendidikan</h4>
+        <ul>
+            <li>Bantuan biaya operasional per semester</li>
+            <li>Berlaku untuk D1–D4, Sarjana, dan profesi tertentu</li>
+            <li>Ditransfer ke rekening perguruan tinggi</li>
+            <li>Lulus lebih cepat → bantuan dihentikan lebih awal</li>
+            <li>Lulus lebih lama → sesuai kebijakan kampus</li>
+        </ul>
+
+        <h4>b. Bantuan Biaya Hidup</h4>
+        <ul>
+            <li>Diberikan per semester</li>
+            <li>Nominal menunggu ketentuan kementerian</li>
+            <li>Ditransfer ke rekening mahasiswa</li>
+            <li>Berlaku sampai semester akhir hak beasiswa</li>
+        </ul>
+
+        <h3>C. JANGKA WAKTU</h3>
+        <p>
+            Program Sarjana & Diploma Empat paling lama 8 semester.
+        </p>
+
+        <h3>D. CARA MENDAFTAR KIP-KULIAH STMIK EL RAHMA</h3>
+        <ul>
+            <li>Daftar di: https://kip-kuliah.kemdikbud.go.id/siswa/pendaftaran/baru</li>
+            <li>
+                Daftar mahasiswa baru STMIK El Rahma:
+                <br>www.elrahmajogja.net → “Daftar Mhs Baru”
+                <br>http://pmb.stmikelrahma.ac.id/home/daftar
+                <br>Pilih Jalur Pendaftaran → <b>KIP-KUL</b>
+            </li>
+        </ul>
+
+        <h3>E. BERKAS YANG HARUS DISIAPKAN :</h3>
+        <ul>
+            <li>Kartu Peserta KIP Kuliah</li>
+            <li>Formulir Peserta</li>
+            <li>Rapor semester 1–6</li>
+            <li>Ijazah/SKL</li>
+            <li>Sertifikat Prestasi (opsional)</li>
+            <li>KIP/PKH/KKS atau Surat Keterangan Layak</li>
+            <li>Surat Penghasilan Orang Tua</li>
+            <li>Screenshot Status DTKS</li>
+            <li>Kartu Keluarga</li>
+            <li>Foto Rumah</li>
+            <li>Rekening Listrik</li>
+            <li>Tagihan PBB</li>
+        </ul>
+
+        <p><b>CATATAN :</b></p>
+        <ol>
+            <li>Semua berkas discan PDF dalam 1 file</li>
+            <li>Template surat keterangan tersedia — hubungi 0811 2929 757</li>
+        </ol>
     </div>
 
 </div>
+
 <!--Start Footer Area-->
         <div class="footer-area pt-100 pb-70">
             <div class="container">
