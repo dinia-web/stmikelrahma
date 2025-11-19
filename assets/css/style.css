@@ -1,3 +1,4 @@
+
 /*
 @File: Sanu Template Styles
 
@@ -963,25 +964,19 @@ Preloader Style
 ======================================================*/
 .section-title {
   max-width: 450px;
-  margin: -10px auto 40px;
-  position: center;
   text-align: center;
+  margin: -10px auto 40px;
+  position: relative;
 }
 .section-title.style2 {
   text-align: left;
   margin-left: 0;
-  text-align: center;
   margin-right: auto;
 }
 .section-title h2 {
-<<<<<<< HEAD
   font-size: 40px;
-=======
-  font-size: 36px;
->>>>>>> dc9eb35 (perbaikannn again)
   font-weight: 700;
   margin-bottom: 10px;
-  text-align: center;
 }
 .section-title h2.white {
   color: #ffffff;
@@ -1076,6 +1071,7 @@ Banner Style
 .slider-content.style2 p {
   color: #fdfbfb;
 }
+
 
 .hero-slider {
   position: relative;
@@ -2324,7 +2320,6 @@ Courses Style
 }
 .instructor .instructor-content .social ul li {
   display: inline-block;
-  list-style-type: none;
   margin-right: 10px;
 }
 .instructor .instructor-content .social ul li a {
@@ -2552,8 +2547,12 @@ Courses Style
   margin-bottom: 0;
   border-bottom: 0;
 }
+.enroll-courses .list ul li a {
+  color: #82b440;
+}
 .enroll-courses .default-btn {
   display: block;
+  width: 100%;
 }
 
 /*
@@ -2917,6 +2916,7 @@ Admission Style
   color: #82b440;
   left: 0;
 }
+
 
 .submit {
   padding-bottom: 35px;
@@ -5170,7 +5170,7 @@ Coming Soon Style
 .coming-soon-area .coming-soon .newsletter-form .validation-danger {
   color: #82b440;
   padding-top: 7px;
-}/*# sourceMappingURL=style.css.map */
+}
 
 /* ======== INFO PMB SECTION ======== */
 .info-pmb-section {
@@ -5186,19 +5186,9 @@ Coming Soon Style
   width: 90%;
 }
 
-<<<<<<< HEAD
 .section-title {
   text-align: center;
   color: #0b3d0b; /* hijau tua */
-=======
-/* JUDUL */
-.info-pmb-section .section-title {
-  display: block;
-  width: 100%;
-  text-align: center !important;
-  font-size: 36px;
-  color: #0b3d0b;
->>>>>>> dc9eb35 (perbaikannn again)
   font-weight: 700;
   font-size: 28px;
   letter-spacing: 0.5px;
@@ -5447,6 +5437,7 @@ kegiatan
         grid-template-columns: repeat(1, 1fr);
     }
   }
+
 
  /* === Jalur Pendaftaran Section === */
 
@@ -6019,4 +6010,532 @@ kegiatan
     .survei-container-modern {
         padding: 30px 25px;
     }
+
+/* =========================================================
+   DOWNLOAD SECTION — LIGHT MODE (DEFAULT)
+   ========================================================= */
+
+.download-section.bg-video-section,
+.download-section {
+    background-color: #e8e6d7 !important; /* Coklat muda */
+    padding: 60px 0;
+    color: #222;
+}
+
+/* ---------- SECTION TITLE ---------- */
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.section-title .line {
+    width: 60px;
+    height: 3px;
+    background: #b32c2c;
+    margin: 0 auto 30px auto;
+}
+
+/* ---------- DOWNLOAD CARD ---------- */
+.download-card {
+    background: #ffffff;
+    padding: 25px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    color: #222;
+    box-shadow: none;
+}
+
+.download-card .title {
+    color: #b32c2c;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-read {
+    background: #c62828;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.time {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #575757;
+}
+
+/* =========================================================
+   HILANGKAN pengaruh otomatis browser (prefers-color-scheme)
+   ========================================================= */
+@media (prefers-color-scheme: dark) {
+    .download-section.bg-video-section,
+    .download-section,
+    .download-card {
+        background-color: #e8e6d7 !important;
+        color: #222 !important;
+    }
+
+    .download-card .title {
+        color: #b32c2c !important;
+    }
+}
+
+/* =========================================================
+   DARK MODE BY TOGGLE (body.dark)
+   ========================================================= */
+
+body.dark .download-section.bg-video-section,
+body.dark .download-section {
+    background-color: #0f0f0f !important; /* HITAM gelap */
+    color: #eaeaea !important;
+}
+
+/* ---------- TITLE IN DARK ---------- */
+body.dark .section-title h2 {
+    color: #ff6666 !important;
+}
+
+body.dark .section-title .line {
+    background: #ff4444 !important;
+}
+
+/* ---------- CARD IN DARK ---------- */
+body.dark .download-card {
+    background: #1b1b1b !important;
+    color: #f0f0f0 !important;
+}
+
+body.dark .download-card .title {
+    color: #ff5555 !important;
+}
+
+/* ---------- BUTTON IN DARK ---------- */
+body.dark .btn-read {
+    background: #ff4444 !important;
+    color: #fff !important;
+}
+
+/* ---------- TIME TEXT IN DARK ---------- */
+body.dark .time {
+    color: #bbbbbb !important;
+}
+
+/* =========================================================
+   DARK MODE FIXES - PERBAIKAN UNTUK SECTION YANG TIDAK RESPONSIVE
+   ========================================================= */
+
+/* ======== INFO PMB SECTION DARK MODE ======== */
+body.dark .info-pmb-section {
+  background-color: #1a1a1a !important;
+}
+
+body.dark .info-pmb-section .section-title {
+  color: #ffffff !important;
+}
+
+body.dark .info-pmb-section .flex-text {
+  color: #e0e0e0 !important;
+}
+
+body.dark .info-pmb-section .flex-text b {
+  color: #82b440 !important;
+}
+
+body.dark .info-pmb-section .flex-text a {
+  color: #82b440 !important;
+}
+
+body.dark .info-pmb-section .flex-text a:hover {
+  color: #a0d468 !important;
+}
+
+/* ======== GALLERY SECTION DARK MODE ======== */
+body.dark .gallery-section-modern {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+body.dark .gallery-section-modern h2 {
+  color: #ffffff !important;
+}
+
+body.dark .gallery-item-modern {
+  background: #2d2d2d !important;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.3) !important;
+}
+
+body.dark .gallery-item-modern:hover {
+  box-shadow: 0px 12px 28px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* ======== IKLAN SECTION DARK MODE ======== */
+body.dark .iklan-iklan {
+  background-color: #1a1a1a !important;
+}
+
+body.dark .iklan-title {
+  color: #ffffff !important;
+}
+
+/* ======== COURSES SECTION DARK MODE ======== */
+body.dark .single-courses-card .courses-content,
+body.dark .single-courses-card.style2,
+body.dark .single-courses-card.style4 .courses-content {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .single-courses-card .courses-content h3,
+body.dark .single-courses-card .courses-content p,
+body.dark .single-courses-card .courses-content .admin-profile p {
+  color: #e0e0e0 !important;
+}
+
+body.dark .single-courses-card .courses-content h3:hover {
+  color: #82b440 !important;
+}
+
+/* ======== CAMPUS LIFE DARK MODE ======== */
+body.dark .single-campus-card,
+body.dark .single-campus-card.style2 .campus-content,
+body.dark .single-campus-card.style-3 .campus-content {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .single-campus-card .campus-content h3,
+body.dark .single-campus-card .campus-content span {
+  color: #e0e0e0 !important;
+}
+
+body.dark .single-campus-card .campus-content h3:hover {
+  color: #82b440 !important;
+}
+
+/* ======== EVENTS DARK MODE ======== */
+body.dark .single-events-card .events-content,
+body.dark .single-events-card.style2 .events-content,
+body.dark .single-events-card.style-3 .events-content,
+body.dark .single-events-card.style-4 .events-content {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .single-events-card .events-content h3,
+body.dark .single-events-card .events-content .admin p,
+body.dark .single-events-card .events-content .admin-and-date ul li a {
+  color: #e0e0e0 !important;
+}
+
+body.dark .single-events-card:hover .events-content h3 {
+  color: #82b440 !important;
+}
+
+/* ======== NEWS DARK MODE ======== */
+body.dark .single-news-card,
+body.dark .single-news-card.style2 .news-content,
+body.dark .single-news-card.style3,
+body.dark .single-news-card.style3 .news-content {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .single-news-card .news-content h3,
+body.dark .single-news-card .news-content .list ul li,
+body.dark .single-news-card .news-content .list ul li a {
+  color: #e0e0e0 !important;
+}
+
+body.dark .single-news-card:hover .news-content h3 {
+  color: #82b440 !important;
+}
+
+/* ======== ACADEMICS DARK MODE ======== */
+body.dark .single-academics-card,
+body.dark .serch-content,
+body.dark .category-content,
+body.dark .academics-list,
+body.dark .related-download {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .single-academics-card .academic-top-content h3,
+body.dark .serch-content h3,
+body.dark .category-content h3,
+body.dark .academics-list h3,
+body.dark .related-download h3,
+body.dark .academics-list ul li a,
+body.dark .related-download ul li a {
+  color: #e0e0e0 !important;
+}
+
+body.dark .single-academics-card .academic-top-content h3:hover {
+  color: #82b440 !important;
+}
+
+/* ======== HEALTH CARE DARK MODE ======== */
+body.dark .single-health-care-card .health-care-content,
+body.dark .single-health-care-card.style1 .health-care-content,
+body.dark .single-health-care-card.style2 .health-care-content,
+body.dark .single-health-care-card.style-3 .health-care-content {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .single-health-care-card .health-care-content h3,
+body.dark .single-health-care-card .health-care-content p {
+  color: #e0e0e0 !important;
+}
+
+body.dark .single-health-care-card:hover .health-care-content h3 {
+  color: #82b440 !important;
+}
+
+/* ======== PODCASTS DARK MODE ======== */
+body.dark .single-podcasts-card.style2 .podcast-content {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .single-podcasts-card .podcast-content h3 {
+  color: #e0e0e0 !important;
+}
+
+/* ======== SIDEBAR & MODAL DARK MODE ======== */
+body.dark .sidebarModal.modal .modal-body,
+body.dark .sidebarModal.modal .modal-body .contact-form #contactForm .form-control {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .sidebarModal.modal .modal-body h3,
+body.dark .sidebarModal.modal .modal-body p,
+body.dark .sidebarModal.modal .modal-body .sidebar-contact-info .info-list li,
+body.dark .sidebarModal.modal .modal-body .sidebar-contact-info .info-list li a {
+  color: #e0e0e0 !important;
+}
+
+/* ======== FORM ELEMENTS DARK MODE ======== */
+body.dark .form-control {
+  background-color: #2d2d2d !important;
+  border-color: #444 !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .form-control:focus {
+  border-color: #82b440 !important;
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+/* ======== PAGINATION DARK MODE ======== */
+body.dark .paginations ul li a {
+  background-color: #2d2d2d !important;
+  border-color: #444 !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .paginations ul li a:hover,
+body.dark .paginations ul li a.active {
+  background-color: #82b440 !important;
+  border-color: #82b440 !important;
+  color: #ffffff !important;
+}
+
+/* ======== ACCORDION DARK MODE ======== */
+body.dark .accordion .accordion-item {
+  background-color: #2d2d2d !important;
+  border-color: #444 !important;
+}
+
+body.dark .accordion .accordion-item .accordion-button {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .accordion .accordion-item .accordion-button:not(.collapsed) {
+  background-color: #82b440 !important;
+  color: #ffffff !important;
+}
+
+/* ======== LOGIN/REGISTER DARK MODE ======== */
+body.dark .login,
+body.dark .register,
+body.dark .password {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .login h3,
+body.dark .register h3,
+body.dark .password h3 {
+  color: #e0e0e0 !important;
+  border-bottom-color: #444 !important;
+}
+
+/* ======== PRIVACY & TERMS DARK MODE ======== */
+body.dark .privacy-content,
+body.dark .condition-content {
+  color: #e0e0e0 !important;
+}
+
+body.dark .privacy-content h2,
+body.dark .privacy-content h4,
+body.dark .condition-content h2,
+body.dark .condition-content h4 {
+  color: #e0e0e0 !important;
+}
+
+/* ======== CONTACT FORM DARK MODE ======== */
+body.dark .contacts-form {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .contacts-form h3 {
+  color: #e0e0e0 !important;
+}
+
+body.dark .contact-and-address .contact-and-address-content .contact-card {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .contact-and-address .contact-and-address-content .contact-card h4,
+body.dark .contact-and-address .contact-and-address-content .contact-card p {
+  color: #e0e0e0 !important;
+}
+
+/* ======== FOOTER DARK MODE ======== */
+body.dark .footer-area {
+  background-color: #043915 !important; /* Tetap hijau tua di dark mode */
+}
+
+body.dark .copyright-area {
+  background-color: #1a1a1a !important;
+}
+
+body.dark .copyright .copy p,
+body.dark .copyright .copy p a {
+  color: #82b440 !important;
+}
+
+/* ======== NAVBAR DARK MODE ======== */
+body.dark .navbar-area.nav-bg-2 {
+  background-color: #1a1a1a !important;
+}
+
+body.dark .navbar-area.nav-bg-2 .desktop-nav .navbar-nav .nav-item a {
+  color: #e0e0e0 !important;
+}
+
+body.dark .navbar-area.nav-bg-2 .desktop-nav .others-options .icon {
+  color: #e0e0e0 !important;
+}
+
+/* ======== DROPDOWN MENU DARK MODE ======== */
+body.dark .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu {
+  background-color: #2d2d2d !important;
+}
+
+body.dark .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
+  color: #e0e0e0 !important;
+  border-bottom-color: #444 !important;
+}
+
+body.dark .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover {
+  color: #82b440 !important;
+  background-color: #1a1a1a !important;
+}
+
+/* ======== PERBAIKAN DARK MODE UNTUK DOWNLOAD SECTION ======== */
+body.dark .download-section {
+  background-color: #1a1a1a !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .download-section .section-title h2 {
+  color: #ffffff !important;
+}
+
+body.dark .download-section .section-title .line {
+  background: #ff4444 !important;
+}
+
+body.dark .download-card {
+  background: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .download-card .title {
+  color: #ff5555 !important;
+}
+
+body.dark .btn-read {
+  background: #ff4444 !important;
+  color: #ffffff !important;
+}
+
+body.dark .time {
+  color: #bbbbbb !important;
+}
+
+/* ======== PERBAIKAN DARK MODE UNTUK INFO PMB SECTION ======== */
+body.dark .info-pmb-section {
+  background-color: #1a1a1a !important;
+}
+
+body.dark .info-pmb-section .section-title {
+  color: #ffffff !important;
+}
+
+body.dark .info-pmb-section .flex-text {
+  color: #e0e0e0 !important;
+}
+
+body.dark .info-pmb-section .flex-text b {
+  color: #82b440 !important;
+}
+
+body.dark .info-pmb-section .flex-text a {
+  color: #82b440 !important;
+}
+
+body.dark .info-pmb-section .flex-text a:hover {
+  color: #a0d468 !important;
+}
+
+/* ======== PERBAIKAN DARK MODE UNTUK GALLERY SECTION ======== */
+body.dark .gallery-section-modern {
+  background-color: #1a1a1a !important;
+}
+
+body.dark .gallery-section-modern h2 {
+  color: #ffffff !important;
+}
+
+body.dark .gallery-item-modern {
+  background: #2d2d2d !important;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.3) !important;
+}
+
+body.dark .gallery-item-modern:hover {
+  box-shadow: 0px 12px 28px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* ======== PERBAIKAN DARK MODE UNTUK IKLAN SECTION ======== */
+body.dark .iklan-iklan {
+  background-color: #1a1a1a !important;
+}
+
+body.dark .iklan-title {
+  color: #ffffff !important;
+}
 }
